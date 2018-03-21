@@ -1,5 +1,25 @@
 import { RemFunction } from './context';
-import { FontWeightPalate } from './font-weight-palate';
+//import { FontWeightPalate } from './font-weight-palate';
+
+
+export interface FontWeightPalate {
+  semilight: {
+    fontFamily: string;
+    fontWeight: number;
+  };
+  regular: {
+    fontFamily: string;
+    fontWeight: number;
+  };
+  semibold: {
+    fontFamily: string;
+    fontWeight: number;
+  };
+  bold: {
+    fontFamily: string;
+    fontWeight: number;
+  };
+}
 
 export function FontWeights(rem: RemFunction): FontWeightPalate {
   return {

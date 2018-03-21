@@ -1,5 +1,5 @@
 import * as Components from '../atoms/components';
-import * as Icons from 'msteams-ui-icons-react';
+import * as Icons from '../atoms';
 import * as React from 'react';
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';
 

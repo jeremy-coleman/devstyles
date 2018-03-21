@@ -1,5 +1,28 @@
 import { RemFunction } from './context';
-import { FontSizePalate } from './font-size-palate';
+
+
+export interface FontSizePalate {
+  title: {
+    fontSize: string;
+    lineHeight: string;
+  };
+  title2: {
+    fontSize: string;
+    lineHeight: string;
+  };
+  base: {
+    fontSize: string;
+    lineHeight: string;
+  };
+  caption: {
+    fontSize: string;
+    lineHeight: string;
+  };
+  xsmall: {
+    fontSize: string;
+    lineHeight: string;
+  };
+}
 
 export function FontSizes(rem: RemFunction): FontSizePalate {
   return {

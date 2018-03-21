@@ -1,4 +1,4 @@
-import { MSTeamsIcon, MSTeamsIconType, MSTeamsIconWeight } from 'msteams-ui-icons-react';
+import { MSTeamsIcon, MSTeamsIconType, MSTeamsIconWeight } from '../icons';
 import { textArea } from '../../styles/components/text-area';
 import * as React from 'react';
 import { Focusable } from '../focusable';

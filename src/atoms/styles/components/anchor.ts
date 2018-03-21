@@ -1,24 +1,12 @@
 import { chooseStyle, Context } from '../context';
 
 interface AnchorColors {
-  rest: {
-    text: string;
-  };
-  hover: {
-    text: string;
-  };
-  down: {
-    text: string;
-  };
-  disabled: {
-    text: string;
-  };
-  focus: {
-    text: string;
-  };
-  visited: {
-    text: string;
-  };
+  rest: {text: string;};
+  hover: {text: string;};
+  down: {text: string;};
+  disabled: {text: string;};
+  focus: {text: string;};
+  visited: {text: string;};
 }
 
 function base(context: Context, colors: AnchorColors) {

@@ -1,14 +1,11 @@
 import { style } from 'typestyle/lib';
 import { NestedCSSProperties } from 'typestyle/lib/types';
 import { ColorPalate, Colors } from './colors';
-import { FontSizePalate } from './font-size-palate';
-import { FontSizes } from './font-sizes';
-import { FontWeightPalate } from './font-weight-palate';
-import { FontWeights } from './font-weights';
-import { Spacing } from './spacing';
-import { SpacingPalate } from './spacing-palate';
-import { ThemeConfig } from './theme-config';
-import { ThemeStyle } from './theme-style';
+import { FontSizes, FontSizePalate  } from './font-sizes';
+import { FontWeights, FontWeightPalate } from './font-weights';
+import { Spacing, SpacingPalate } from './spacing';
+import { ThemeConfig, ThemeStyle } from './theme-config';
+
 
 export interface RemFunction {
   (n: number): string;

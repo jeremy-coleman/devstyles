@@ -1,5 +1,18 @@
 import { RemFunction } from './context';
-import { SpacingPalate } from './spacing-palate';
+//import { SpacingPalate } from './spacing-palate';
+
+
+export interface SpacingPalate {
+  xxxSmall: string;
+  xxSmall: string;
+  xSmall: string;
+  small: string;
+  base: string;
+  large: string;
+  xLarge: string;
+  xxLarge: string;
+  xxxLarge: string;
+}
 
 export function Spacing(rem: RemFunction): SpacingPalate {
   return {

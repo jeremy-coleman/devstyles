@@ -57,6 +57,7 @@ export class ConnectedComponent
     }
 
     if (typeof children === 'function') {
+      //@ts-ignore
       return children(props);
     }
 

@@ -1,16 +1,9 @@
 import { map } from 'lodash';
-import {
-  CompoundButton,
-  connectTeamsComponent,
-  InjectedTeamsProps,
-  Panel,
-  PanelBody,
-  PanelHeader,
-} from '../atoms';
-import { MSTeamsIcon, MSTeamsIconType, MSTeamsIconWeight } from 'msteams-ui-icons-react';
+import { MSTeamsIcon, MSTeamsIconType, MSTeamsIconWeight } from '../atoms';
 import * as React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
 
+import { CompoundButton, connectTeamsComponent, InjectedTeamsProps, Panel, PanelBody, PanelHeader } from '../atoms';
 import { Routes } from '../routes';
 import { sidebar } from './styles';
 

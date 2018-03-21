@@ -1,10 +1,10 @@
 import { normalize, setupPage } from 'csstips';
-import { TeamsComponentContext, ThemeStyle } from 'msteams-ui-components-react';
+import { TeamsComponentContext, ThemeStyle } from './atoms';
 import * as React from 'react';
 import { render } from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 
-import { AppLayout } from './app-layout';
+import { AppLayout } from './layout';
 import { Content } from './content';
 import { Sidebar } from './sidebar';
 
@@ -20,7 +20,7 @@ export interface ContentState {
 }
 
 
-export class GHPages extends React.Component<{}, ContentState> {
+export class CogliteApp extends React.Component<{}, ContentState> {
   state = {
     theme: ThemeStyle.Light,
     fontSize: 16,
@@ -98,6 +98,6 @@ export class GHPages extends React.Component<{}, ContentState> {
 }
 
 render(
-  <GHPages />,
+  <CogliteApp />,
   document.getElementById(mountPoint)
 );

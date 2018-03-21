@@ -1,5 +1,6 @@
-import { Context } from 'msteams-ui-components-react';
+//import { Context } from 'msteams-ui-components-react';
 import { style } from 'typestyle';
+import { Context } from '../atoms';
 
 export function content(context: Context) {
   const { rem } = context;

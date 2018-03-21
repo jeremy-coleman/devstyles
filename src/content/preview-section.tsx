@@ -1,4 +1,4 @@
-import * as Components from 'msteams-ui-components-react';
+import * as Components from '../atoms/components';
 import * as Icons from 'msteams-ui-icons-react';
 import * as React from 'react';
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';

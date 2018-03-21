@@ -1,4 +1,4 @@
-import { connectTeamsComponent, InjectedTeamsProps, Surface } from 'msteams-ui-components-react';
+import { connectTeamsComponent, InjectedTeamsProps, Surface } from '../atoms';
 import * as React from 'react';
 
 import * as styles from './styles';

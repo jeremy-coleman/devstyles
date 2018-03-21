@@ -1,4 +1,4 @@
-import { Context } from 'msteams-ui-components-react';
+import { Context } from '../atoms';
 import { style } from 'typestyle';
 
 export function sidebar(context: Context) {

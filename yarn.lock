@@ -16,9 +16,17 @@
   version "4.14.91"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.91.tgz#794611b28056d16b5436059c6d800b39d573cd3a"
 
+"@types/lodash@^4.14.105":
+  version "4.14.105"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.105.tgz#9fcc4627a1f98f8f8fce79ddb2bff4afd97e959b"
+
 "@types/microsoftteams@^1.2.0":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@types/microsoftteams/-/microsoftteams-1.2.1.tgz#ca9ee7fa64da27fe8aa8270da1d187496242f30d"
+
+"@types/mousetrap@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@types/mousetrap/-/mousetrap-1.6.0.tgz#c3951ab98b88ff6093cd0b1e4f8591af439141b8"
 
 "@types/node@*":
   version "8.5.5"
@@ -2537,6 +2545,10 @@ lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.17.5:
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
 loglevel@^1.4.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.0.tgz#ae0caa561111498c5ba13723d6fb631d24003934"
@@ -3524,10 +3536,6 @@ resolve@^1.3.2:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
   dependencies:
     path-parse "^1.0.5"
-
-rfc6902-mobx@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/rfc6902-mobx/-/rfc6902-mobx-2.2.2.tgz#73944be185c3dfab64af5a123b5f0243959c8406"
 
 right-align@^0.1.1:
   version "0.1.3"

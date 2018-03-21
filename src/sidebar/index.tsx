@@ -6,7 +6,7 @@ import {
   Panel,
   PanelBody,
   PanelHeader,
-} from 'msteams-ui-components-react';
+} from '../atoms';
 import { MSTeamsIcon, MSTeamsIconType, MSTeamsIconWeight } from 'msteams-ui-icons-react';
 import * as React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';

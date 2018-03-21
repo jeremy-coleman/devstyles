@@ -5,18 +5,19 @@ import { Routes } from '../routes';
 import { PreviewSection } from './preview-section';
 
 // tslint:disable:no-var-requires
-const ButtonSection = require('../examples/button.example.jsx');
-const CheckboxSection = require('../examples/checkbox.example.jsx');
-const DropdownSection = require('../examples/dropdown.example.jsx');
-const IconsSection = require('../examples/icons.example.jsx');
-const InputSection = require('../examples/input.example.jsx');
-const LinkSection = require('../examples/link.example.jsx');
-const RadiobuttonSection = require('../examples/radiobutton.example.jsx');
-const TabSection = require('../examples/tab.example.jsx');
-const TableSection = require('../examples/table.example.jsx');
-const TextAreaSection = require('../examples/textarea.example.jsx');
-const TogglesSection = require('../examples/toggle.example.jsx');
+const ButtonSection = require('./examples/button.example.jsx');
+const CheckboxSection = require('./examples/checkbox.example.jsx');
+const DropdownSection = require('./examples/dropdown.example.jsx');
+const IconsSection = require('./examples/icons.example.jsx');
+const InputSection = require('./examples/input.example.jsx');
+const LinkSection = require('./examples/link.example.jsx');
+const RadiobuttonSection = require('./examples/radiobutton.example.jsx');
+const TabSection = require('./examples/tab.example.jsx');
+const TableSection = require('./examples/table.example.jsx');
+const TextAreaSection = require('./examples/textarea.example.jsx');
+const TogglesSection = require('./examples/toggle.example.jsx');
 // tslint:enable:no-var-requires
+
 
 export const Content: React.StatelessComponent = () => {
   return (

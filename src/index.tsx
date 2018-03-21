@@ -13,10 +13,12 @@ const mountPoint = 'root';
 normalize();
 setupPage(`#${mountPoint}`);
 
+
 export interface ContentState {
   fontSize: number;
   theme: ThemeStyle;
 }
+
 
 export class GHPages extends React.Component<{}, ContentState> {
   state = {

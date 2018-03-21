@@ -11,14 +11,16 @@ interface AppLayoutProps {
 const AppLayoutInner: React.StatelessComponent<AppLayoutProps & InjectedTeamsProps> = (props) => {
   const { context } = props;
   const classes = styles.appLayout(context);
-  return <Surface className={classes.container}>
+  return (
+  <Surface className={classes.container}>
     <div className={classes.sidebar}>
       <props.sidebar />
     </div>
     <div className={classes.main}>
       <props.main />
     </div>
-  </Surface>;
+  </Surface>
+  );
 };
 
 export const AppLayout = connectTeamsComponent(AppLayoutInner);
